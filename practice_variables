@@ -1,0 +1,90 @@
+
+#1
+name="Megha"
+age=27
+city="Mysuru"
+
+print(f"My name is ",name)
+print(f"I am {age} years old ")
+print("I live in ",city)
+
+#2.
+num1=int(input("Enter the first num"))
+num2=int(input("Enter the second num"))
+
+sum = num1 + num2
+diff= num1 - num2
+mult = num1 * num2
+
+print(f"sum={sum}\ndiff={diff}\nmult={mult}")
+
+#3.
+name=input("Enter your name : ")
+
+print("Welcome",name)
+
+#4.
+age=int(input("Enter your age : "))
+
+print("Next year your age will be",age+1)
+
+#5.
+a=10
+b=20
+a,b=b,a
+print(f"Before swapping a=10 and b=20\nAfter swapping a={a} and b={b}")
+
+#6
+num1=10
+num2=20
+
+print("The larger number is :",num2)
+#or with conditions
+num1=int(input("Enter frist number : "))
+num2=int(input("Enter second number : "))
+
+if num1 > num2:   
+    print("The larger number is",num1)
+elif num2> num1:
+    print("Larger is:",num2)
+else:
+    print("Both are equal")
+
+#7.
+price=200
+quantity=2
+
+Total=price * quantity
+print("Total price is",Total)
+
+#8.
+first_name=input("Enter your first name : ")
+second_name=input("Enter your second name : ")
+
+print(f"Full Name : {first_name} {second_name}")
+
+#9.
+x="10"
+y=5
+
+print(x+str(y))#105 will be the output
+
+#10.
+a=5
+b=2
+print(a/b)#it is division, the output will be 2.5 and decimal point ll be there
+print(a//b)#it is floor division, th output ll be 2, it lll print the round figure
+
+#
+x=10
+x="Hello"
+print(x)
+
+print(float("15"))
+
+#
+radius=float(input("Enter the radius : "))
+pi=3.14
+
+Area_of_circle=pi*radius**2
+print("Area of circle is : ",Area_of_circle)
